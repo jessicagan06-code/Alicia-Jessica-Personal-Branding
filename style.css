@@ -347,7 +347,7 @@ nav ul li a:hover::after {
 .timeline-vertical::before {
     content: '';
     position: absolute;
-    left: 30px;
+    left: 20px;
     top: 0;
     bottom: 0;
     width: 3px;
@@ -358,22 +358,23 @@ nav ul li a:hover::after {
 
 .timeline-item-vertical {
     margin-bottom: 40px;
-    padding-left: 100px;
+    padding-left: 90px;
     position: relative;
 }
 
 .timeline-marker {
     position: absolute;
-    left: 0;
-    top: 8px;
-    width: 20px;
-    height: 20px;
+    left: 6px;
+    top: 0;
+    width: 28px;
+    height: 28px;
     background: #d6287b;
     border-radius: 50%;
     border: 4px solid rgba(255, 255, 255, 0.95);
     box-shadow: 0 0 0 3px rgba(214, 40, 123, 0.25), 
                 0 0 12px rgba(214, 40, 123, 0.4);
     z-index: 5;
+    flex-shrink: 0;
 }
 
 .timeline-content-vertical {
