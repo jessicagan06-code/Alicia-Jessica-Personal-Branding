@@ -1191,13 +1191,16 @@ nav ul li a:hover::after {
 
 .cv-main-title {
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 700;
-    color: #d6287b;
+    color: #e83e8c;
+    
     text-align: center;
-    margin-bottom: 25px;
+    width: 100%;
+    display: block;
+
+    margin: 0 auto 30px auto;
     letter-spacing: 1px;
-    text-shadow: 0 2px 8px rgba(214, 40, 123, 0.15);
 }
 
 .cv-columns {
