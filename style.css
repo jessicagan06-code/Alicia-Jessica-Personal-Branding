@@ -1210,20 +1210,67 @@ nav ul li a:hover::after {
 }
 
 .cv-column-left,
-<!-- CV PDF -->
-<div class="cv-section cv-pdf-section">
-    <h3 class="cv-section-title">📄 CURRICULUM VITAE PDF</h3>
+/* ===== CV PDF SECTION ===== */
+.cv-pdf-section {
+    border-left: 4px solid #7e22ce; /* Warna ungu untuk membedakan sedikit */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(126, 34, 206, 0.05));
+}
 
-    <p class="cv-pdf-text">
-        Lihat versi lengkap Curriculum Vitae dalam format PDF.
-    </p>
+.cv-pdf-container {
+    padding: 5px 0;
+}
 
-    <a href="LINK_GOOGLE_DRIVE_KAMU"
-       target="_blank"
-       class="cv-pdf-button">
-       ✨ Lihat CV PDF
-    </a>
-</div>
+.cv-pdf-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    background: white;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(214, 40, 123, 0.2);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.cv-pdf-link:hover {
+    transform: translateY(-3px);
+    border-color: #d6287b;
+    box-shadow: 0 6px 15px rgba(214, 40, 123, 0.15);
+    background: #fff;
+}
+
+.pdf-icon {
+    font-size: 24px;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.pdf-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.pdf-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #d6287b;
+}
+
+.pdf-format {
+    font-size: 11px;
+    color: #7e22ce;
+    font-weight: 600;
+}
+
+/* Penyesuaian Mobile */
+@media (max-width: 480px) {
+    .cv-pdf-link {
+        padding: 10px;
+    }
+    .pdf-label {
+        font-size: 12px;
+    }
+}
 .cv-column-right {
     display: flex;
     flex-direction: column;
