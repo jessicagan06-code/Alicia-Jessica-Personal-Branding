@@ -1210,6 +1210,20 @@ nav ul li a:hover::after {
 }
 
 .cv-column-left,
+<!-- CV PDF -->
+<div class="cv-section cv-pdf-section">
+    <h3 class="cv-section-title">📄 CURRICULUM VITAE PDF</h3>
+
+    <p class="cv-pdf-text">
+        Lihat versi lengkap Curriculum Vitae dalam format PDF.
+    </p>
+
+    <a href="LINK_GOOGLE_DRIVE_KAMU"
+       target="_blank"
+       class="cv-pdf-button">
+       ✨ Lihat CV PDF
+    </a>
+</div>
 .cv-column-right {
     display: flex;
     flex-direction: column;
