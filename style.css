@@ -1208,8 +1208,6 @@ nav ul li a:hover::after {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
-
-.cv-column-left,
 /* ===== CV PDF SECTION ===== */
 .cv-pdf-section {
     border-left: 4px solid #7e22ce; /* Warna ungu untuk membedakan sedikit */
@@ -1271,6 +1269,8 @@ nav ul li a:hover::after {
         font-size: 12px;
     }
 }
+
+.cv-column-left,
 .cv-column-right {
     display: flex;
     flex-direction: column;
