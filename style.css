@@ -1534,6 +1534,36 @@ nav ul li a:hover::after {
         line-height: 1.5;
     }
 }
+/* ===== PDF CV SECTION ===== */
+.cv-pdf-section {
+    text-align: center;
+}
+
+.cv-pdf-text {
+    font-size: 12px;
+    color: #5b2c6f;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.cv-pdf-button {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #d6287b, #ec4899);
+    box-shadow: 0 6px 18px rgba(214, 40, 123, 0.25);
+    transition: all 0.3s ease;
+}
+
+.cv-pdf-button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #c2185b, #db2777);
+    box-shadow: 0 10px 24px rgba(214, 40, 123, 0.35);
+}
 
 /* ===== A4 PAGE SIZE ===== */
 @page {
